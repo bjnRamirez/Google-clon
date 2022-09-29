@@ -137,3 +137,61 @@ main .main-buttons button:hover{
     background-color: #f8f9fa;
     border: 1px solid #dadce0;
 }
+
+/* estilos para el footer */
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #f2f2f2;
+
+}
+.footer-top{
+    padding-left: 30px;
+    color: #70757A;
+    font-size: 15px;
+}
+.footer-bot{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #dadce0;
+    padding: 0 20px;
+    font-size: 14px;
+}
+.footer-bot ul{
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+footer .footer-left{
+    justify-self: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+footer .footer-left li:last-child{
+    padding-top: 25px;
+}
+footer .footer-right{
+    justify-self: right;
+}
+footer ul li{
+    padding: 2px 15px;
+}
+footer ul li a{
+    color: #70757A;
+}
+@media(min-width: 545px){
+    footer .footer-left li:last-child{
+        padding: 2px 15px;
+    }
+}
+
+@media(min-width: 900px){
+    .footer-bot{
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+}
