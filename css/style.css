@@ -1,3 +1,4 @@
+
 body{
     margin: 0;
     padding: 0;
@@ -17,7 +18,7 @@ header nav{
     justify-content: flex-end;
 }
 header nav .nav-right-section{
-    width: 250px;
+    width: 240px;
     height: auto;
     display: flex;
     list-style: none;
@@ -28,8 +29,9 @@ nav .nav-right-section li:first-child{
     margin-right: 8px;
 }
 nav .nav-right-section a{
-    margin-right: 10px;
+    margin-right: 7px;
     color: #000000;
+
 }
 nav .nav-right-section .menu-icon{
     margin-left: 14px;
@@ -62,17 +64,15 @@ main{
     text-align: center;
 }
 main .main-logo{
-    width: 530px;
     margin: 0 auto;
     margin-bottom: 22px;
 }
 main .main-input{
-    width: 582px;
+    max-width: 582px;
     margin: 0 auto;
     margin-bottom: 30px;
 }
 main .main-input-container{
-    width: 581px;
     height: 44px;
     border-radius: 100px;
     border: 1px solid #dfe1e5;
@@ -81,7 +81,7 @@ main .main-input-container{
     align-items: center;
 }
 main .main-input-container input{
-    width: 490px;
+    width: 85%;
     height: 100%;
     font-size: 16px;
     border: none;
@@ -114,7 +114,6 @@ main .main-input .micro-icon{
 }
 
 main .main-buttons{
-    width: 530px;
     margin: 0 auto;
 }
 main .main-buttons div{
@@ -166,7 +165,7 @@ footer{
     padding-left: 0;
 }
 footer .footer-left{
-    justify-self: left;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -175,7 +174,10 @@ footer .footer-left li:last-child{
     padding-top: 25px;
 }
 footer .footer-right{
-    justify-self: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
 footer ul li{
     padding: 2px 15px;
